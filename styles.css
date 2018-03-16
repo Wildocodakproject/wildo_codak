@@ -76,6 +76,13 @@ section h2 {
 }
 
 
+/* -- PORTFOLIO -- */
+
+.thumbnail {
+    padding: 0;
+    border: none;
+}
+
 /* -- BIOGRAPHY -- */
 
 .biography {
@@ -380,4 +387,16 @@ footer > .navbar {
         padding: 0 1.2em;
     }
 
+}
+
+@media screen and (min-width: 992px) {
+	.thumbnail {
+        padding: 0;
+        border: none;
+        height: 220px;
+    }
+    .thumbnail > img {
+        height: 100%;
+        width: auto;
+    }
 }
